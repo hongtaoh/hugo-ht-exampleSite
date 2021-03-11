@@ -11,6 +11,21 @@
     
     
     <item>
+      <title>如何用 Hugo 搭建个人网站</title>
+      <link>https://example.com/cn/2021/03/02/hugo/</link>
+      <pubDate>Tue, 02 Mar 2021 12:03:38 -0500</pubDate>
+      
+      <guid>https://example.com/cn/2021/03/02/hugo/</guid>
+      <description>本教程旨在手把手帮你搭建你的个人网站。建站工具是Hugo + GitHub + (Netlify )，其中，Netlify 非必须。
+前期准备 如果你是彻彻底底的零基础：没有 GitHub 账号、不知道 HTML 和 CSS 为何物、没用过 Git，甚至连 Markdown 都不知道是什么，强烈建议你先把这份教程 认真读一下。读完后，你需要：
+  注册了 GitHub 账号、下载了文本编辑器、安装了 Git 和（如果你用的是 Windows 系统）终端
+  掌握了 Markdown、HTML 和 CSS 的基础语法
+  安装 Hugo 苹果系统 (Mac) 如果你已经安装了 brew, 那么直接在 Terminal 中输入
+brew install hugo 如果你没安装 brew, 先到 Hugo releases ，找到类似 hugo_0.81.0_macOS-64bit.tar.gz 的文件，点击下载，并解压。需要注意的是 Hugo 一直在更新，所以你到时候看到的版本号很可能已经不是 0.81.0。
+下载完之后，打开 Terminal, 输入 open -a Finder /usr/local/bin，然后把 hugo_0.81.0_macOS-64bit 文件中的 hugo 文件拖到 /usr/local/bin 当中：</description>
+    </item>
+    
+    <item>
       <title>Markdown 试水</title>
       <link>https://example.com/cn/2021/01/07/first-post-cn/</link>
       <pubDate>Thu, 07 Jan 2021 13:42:27 -0500</pubDate>
