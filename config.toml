@@ -4,11 +4,12 @@ title = "Hugo-HT"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
-enableGitInfo = true
+# enableGitInfo = true
 
 [permalinks]
 cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
+posts = "/posts/:year/:month/:day/:slug/"
 
 [[menu.en]]
     name = "Home"
@@ -42,7 +43,7 @@ en = "/en/:year/:month/:day/:slug/"
 [params]
     description = "Peronal website of Your Name"
     homeText = "You just need a Hugo blog from scratch"
-    # Be sure the make sure that the blogDirNmae matches the name used in the menu:
+    # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
     # singleLang = true
     defaultLang = "en"
@@ -50,13 +51,13 @@ en = "/en/:year/:month/:day/:slug/"
     MathJaxVersion = "2.7.5"
     favicon = "media/hugo-logo.png"
     # Edit by yourself:
-    GithubEdit = "https://github.com/hongtaoh/hugo-ht-exampleSite/edit/master/content/"
+    GithubEdit = "https://github.com/USERNAME/REPONAME/edit/master/content/"
     copyright = "&copy;"
     copyrightYear = "2020-2021"
     # Edit by yourself:
-    GithubRepo = "https://github.com/hongtaoh/hugo-ht-exampleSite"
+    GithubRepo = "https://github.com/USERNAME/REPONAME"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/hongtaoh/hugo-ht-exampleSite/master/content/" 
+    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/master/content/" 
 
 [params.logo]
   # Change the logo picture as your prefer:
