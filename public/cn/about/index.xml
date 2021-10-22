@@ -5,10 +5,6 @@
     <link>https://example.com/cn/about/</link>
     <description>Recent content in 王大锤简历 on Hugo-HT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://example.com/cn/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://example.com/cn/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
